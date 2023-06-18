@@ -1,0 +1,16 @@
+osztály: programozási nyelvek legfontosabb összetett adattipusa
+-osztálypédány - objektum
+biztosítják az adatok és rajktuk műveletet végző fügvények (kódtagok) egységét
+módusok: az OOP ben a fügvények metódusok
+az osztály változóit gyakran mezőknek hívjuk
+a legtöbb osztályt használat előtt példányosítani kell, az osztálypéldányokat objektumoknak hívjuk
+azokat amelyeket nem kell példányosítani statikus osztályoknak hívjuk
+az osztály példányosításakor egy speciális metódust fogunk hívni melynek neve konstruktor (hívás automatikusan történik)
+-konstruktor neve __init__() 
+self foglalt szó - az aktuális osztálypédány adatainak és kódtagjainak kódelérésére szolgál
+láthatósági szint - meghatározzák egy kód vagy adattag elérhetőségét, használhatóságát
+osztályok a tagokat másik osztályoktól örökölhetik így egy hierarchikus rendszert hozhatunk létre (szülő -gyermek, ősosztály - leszármazott osztály)
+-láthatósági szintek (elérhetőségi szint):
+legmegengedőbb - public: ostálypéldány felől és a leszármazott osztályokban is láthatók, használhatók
+               - protected: osztálypédány felől nem érhető el de a leszármazott osztályok felől igen
+legszigorúbb   - private: csak a saját osztályból érhető el
